@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Membuat Website</title>
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="pertama">
+      <section class="navbar">
+        <nav id="nav">
+          <div class="nav-judul">
+            <i class="bi bi-gear-wide-connected"></i>
+            <span>Construct</span>
+          </div>
+
+          <ul id="navbar">
+            <a href="#" class="silang"><i class="bi bi-x-lg" onclick="hidemenu()"></i></a>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Project</a></li>
+          </ul>
+          <div>
+            <a href="#" class="card" onclick="sidemenu()"><i class="bi bi-list"></i></a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </nav>
+
+        <div class="home" id="home">
+          <div class="home-kiri">
+            <h3 data-aos="fade-down" data-aos-duration="1000">
+              create the <br />
+              conctructions you <br />
+              want here
+            </h3>
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quae quibusdam molestias nobis necessitatibus.</p>
+            <div class="kolom" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="450">
+              <a href="#" class="btn1">Our Services</a>
+              <div class="home-ls">
+                <a href="#" class="btn2">View Projects</a>
+                <i class="bi bi-arrows-expand-vertical"></i>
+              </div>
+            </div>
+            <div class="angka" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+              <div class="angka1">
+                <h1>10+</h1>
+                <p>
+                  Years of <br />
+                  Expireaance
+                </p>
+              </div>
+              <div class="angka2">
+                <h1>200</h1>
+                <p>
+                  Complete <br />
+                  Projects
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="home-kanan" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900">
+            <img src="gambar/pro7.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="about" id="about">
+      <div class="cabang">
+        <div class="cabang-kiri">
+          <img src="gambar/pro10.png" alt="gambar" />
+        </div>
+
+        <div class="cabang-kanan" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <h5>ABOUT US</h5>
+          <h3>we provide the best service build</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero amet animi, iusto architecto voluptas, sunt illum nobis at sapiente excepturi eos asperiores! Consequuntur, fuga voluptas.</p>
+          <div class="about-kotak">
+            <div class="kotak1">
+              <p>
+                <span><i class="bi bi-patch-check"></i></span>provesional workes
+              </p>
+              <p>
+                <span><i class="bi bi-patch-check"></i></span>extentensive experince
+              </p>
+            </div>
+            <div class="kotak2">
+              <p>
+                <span><i class="bi bi-patch-check"></i></span> cuaranted quality
+              </p>
+              <p>
+                <span><i class="bi bi-patch-check"></i></span>we quate your projects
+              </p>
+            </div>
+          </div>
+          <a href="#" class="btn1">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="atas">
+        <div class="bg1">
+          <h5>our services</h5>
+          <h3>high quqlity <br />construction services</h3>
+        </div>
+        <div class="bg2">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat labore architecto reprehenderit consequatur, consequuntur saepe.</p>
+        </div>
+        <div class="bg3">
+          <a href="#" class="btm">Contacs Now</a>
+        </div>
+      </div>
+      <div class="bawah">
+        <div class="lingka">
+          <a><i class="bi bi-bank2"></i></a>
+          <h4>
+            Housting <br />
+            Construction
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero eveniet et illum consectetur blanditiis?</p>
+        </div>
+        <div class="lingka">
+          <a><i class="bi bi-bank2"></i></a>
+          <h4>
+            Construction<br />
+            Of Home Areas
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero eveniet et illum consectetur blanditiis?</p>
+        </div>
+        <div class="lingka">
+          <a><i class="bi bi-bank2"></i></a>
+          <h4>
+            Mantenaince <br />
+            Repair
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero eveniet et illum consectetur blanditiis?</p>
+        </div>
+      </div>
+      <div class="panah">
+        <a href="#"><i class="bi bi-arrow-left-short"></i></a>
+        <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+      </div>
+    </section>
+    <div class="utama">
+      <section class="project">
+        <div class="ppp">
+          <h5>our project</h5>
+          <h3>
+            latest completed <br />
+            project
+          </h3>
+        </div>
+
+        <div class="project-kolom">
+          <div class="item">
+            <div class="gambar">
+              <img src="gambar/pro6.png" alt="gedung" />
+            </div>
+            <div class="konten">
+              <p class="judul">house construction</p>
+              <h3>two story house</h3>
+              <p class="tgl">January 23,2024</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae corporis quibusdam obcaecati nesciunt, nemo impedit laudantium dolor?</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="gambar">
+              <img src="gambar/pro8.png" alt="gedung" />
+            </div>
+            <div class="konten">
+              <p class="judul">maintenente and repair</p>
+              <h3>stairs and Columnns</h3>
+              <p class="tgl">April 15,2024</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae corporis quibusdam obcaecati nesciunt, nemo impedit laudantium dolor?</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="gambar">
+              <img src="gambar/pro9.png" alt="kiou" />
+            </div>
+            <div class="konten">
+              <p class="judul">construction of home areas</p>
+              <h3>Room and Halaman</h3>
+              <p class="tgl">Maret 30,2024</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae corporis quibusdam obcaecati nesciunt, nemo impedit laudantium dolor?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="terakhir">
+      <section class="contact">
+        <div class="isi">
+          <h5>contact me</h5>
+          <h3>Write To us & Build</h3>
+        </div>
+        <div class="kolom">
+          <div class="kolom1">
+            <img src="gambar/pro4.png" alt="" />
+          </div>
+          <div class="kolom2">
+            <div class="bgi">
+              <i class="bi bi-geo-alt"></i>
+              <p>I'm Here</p>
+              <p>
+                Peru-Lima <br />
+                Av.Moon #321
+              </p>
+            </div>
+            <div class="bgi">
+              <a href=""><i class="bi bi-chat-right-dots"></i></a>
+              <p>Chat with me</p>
+              <ul class="amad">
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+              </ul>
+            </div>
+            <div class="bgi">
+              <a href=""><i class="bi bi-telephone"></i></a>
+              <p>Talk to me</p>
+              <p>+00-987-7654-321</p>
+              <p>+11-01234-765</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="copyright">
+      <div class="nama">
+        <h1>Khairun Nisa</h1>
+        <div class="nama-icon">
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-behance"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-whatsapp"></i>
+        </div>
+      </div>
+      <div class="copy">
+        <p>Copyright @ 2024 Web Designe Mastery. All rights <br />reserved</p>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
