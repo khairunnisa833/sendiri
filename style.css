@@ -8,13 +8,11 @@
   box-sizing: border-box;
 }
 html {
-  height: 2000px;
   font-family: "Roboto", sans-serif;
-  /* overflow: hidden; */
 }
-body {
+/* body {
   height: 4000px;
-}
+} */
 section.pertama {
   max-width: 100%;
 }
@@ -77,10 +75,12 @@ nav .card {
 }
 .home {
   width: 80%;
+  height: 100vh;
   margin: auto;
   padding-top: 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .home-kiri {
   margin-bottom: 30px;
@@ -293,6 +293,7 @@ section.services h3,
   color: #000;
   margin-bottom: 20px;
   transition: 0.3s;
+  border-radius: 10px;
 }
 .project .item:hover {
   border: 1px solid var(--or);
@@ -307,6 +308,7 @@ section.services h3,
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 10px;
 }
 .item .konten {
   padding: 30px 20px;
@@ -430,7 +432,7 @@ section.contact {
     background-color: #fff;
     padding: 40px;
     display: block;
-    transition: 0.3s;
+    transition: all 0.5s;
   }
   section nav ul li {
     display: block;

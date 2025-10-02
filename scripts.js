@@ -8,6 +8,13 @@ function sidemenu() {
 function hidemenu() {
   kotak.style.right = "-300px";
 }
+
+document.addEventListener("click", function (e) {
+  if (!kotak.contains(e.target) && !card.contains(e.target)) {
+    hidemenu();
+  }
+});
+
 // const nav = document.querySelector('#nav');
 // const body = document.body;
 
